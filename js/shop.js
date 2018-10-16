@@ -278,7 +278,7 @@ Shop.items = {
 		'initial': true,
 		'label': '"I\'m a rich b**ch" diamond plate',
 		'help': 'Show them you are SO RICH! at least before buying this useless plate<hr>Totally <b>useless</b>',
-		'cost': 100000000,
+		'cost': 10,
 		'buy': function(){
 			this.owned = true
 			this.showing = false
