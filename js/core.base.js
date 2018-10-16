@@ -25,9 +25,9 @@ Core.base = {
 	'coffeePrice': 5,
 	'coffeeInc': 0.03, // Money increment per pulse
 	'coffeeEffectTime': 180, // ms
-	'energyDrinkPrice': 15,
+	'energyDrinkPrice': 0,
 	'energyDrinkInc': 0.75, // Pulse speed
-	'energyDrinkEffectTime': 60,
+	'energyDrinkEffectTime': 6000,
 
 	'commandPromptInc': 1,
 	'notificationsRequested': false,
@@ -35,7 +35,7 @@ Core.base = {
 	'projectProfitMultiplier': 0,
 
 	'quickProjectsMinTime': 5,
-	'quickProjectsMaxTime': 10,
+	'quickProjectsMaxTime': 1,
 	'quickProjectsFinderTimeMagnifier': true,
 
 	'oscilatingValue': 0.0,
