@@ -92,7 +92,7 @@ Shop.items = {
 		'initial': true,
 		'label': 'Infinite coffee contract',
 		'help': 'You make a contract with a coffee vendor to have coffee with no cost and permanently<hr>Permanent +' + (Core.base.coffeeInc * 100) + '% ' + Core.base.moneyChar + '/pulse',
-		'cost': 20000,
+		'cost': 2,
 		'buy': function(){
 			if(Stats.isCoffeePowered){
 				clearInterval(window.coffeeInterval)
@@ -120,7 +120,7 @@ Shop.items = {
 		'initial': true,
 		'label': 'Energy Partner',
 		'help': 'You become partner of "Lightning|Devs S.A."<hr>Permanent pulse speed: +' + (Core.base.energyDrinkInc) + '%',
-		'cost': 20000,
+		'cost': 2,
 		'buy': function(){
 			if(Stats.isEnergyDrinkPowered){
 				clearInterval(window.energyDrinkInterval)
